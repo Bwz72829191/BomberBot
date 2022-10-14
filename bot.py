@@ -4,9 +4,9 @@ import requests
 import random
 from threading import Thread
  
-bot = telebot.TeleBot('YOUR TOKEN')
+bot = telebot.TeleBot('5430550373:AAHNVQh0sPioQBlNVY31nwuQvGEbFD_Aaqs')
  
-aid = ID админа
+aid = 5488298617
  
 #начало диалога
 @bot.message_handler(commands=['start'])
